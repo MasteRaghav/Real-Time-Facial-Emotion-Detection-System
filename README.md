@@ -174,8 +174,6 @@ Emotion-Detection-System
 ## 👨‍💻 Author
 
 **Raghav Khatri**
-Summer Intern – DRDO Jodhpur
-Project: *Real-Time Facial Emotion Recognition Using CNN and FER-2013*
 
 ---
 
