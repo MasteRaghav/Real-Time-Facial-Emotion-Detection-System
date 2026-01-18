@@ -1,0 +1,83 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #1e3c72, #2a5298);
+  color: #ffffff;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.container {
+  background-color: rgba(255, 255, 255, 0.05);
+  border-radius: 16px;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(10px);
+  padding: 40px;
+  width: 90%;
+  max-width: 500px;
+  text-align: center;
+}
+
+
+.container h1 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+
+
+video {
+  width: 100%;
+  border-radius: 12px;
+  border: 3px solid #ffffff33;
+  margin-bottom: 20px;
+  box-shadow: 0 0 10px #00000055;
+}
+
+
+button {
+  background: linear-gradient(135deg, #ff4b5c, #ff416c);
+  border: none;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 50px;
+  color: #ffffff;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-top: 10px;
+}
+
+button:hover {
+  background: linear-gradient(135deg, #ff416c, #ff4b5c);
+  transform: scale(1.05);
+  box-shadow: 0 4px 20px rgba(255, 75, 92, 0.6);
+}
+
+
+p {
+  margin-top: 15px;
+  font-size: 18px;
+}
+
+#emotionText {
+  font-weight: bold;
+  color: #ffcc70;
+}
+
+
+audio {
+  margin-top: 25px;
+  width: 100%;
+  border-radius: 10px;
+  outline: none;
+}
